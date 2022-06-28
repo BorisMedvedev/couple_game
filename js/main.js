@@ -1,6 +1,5 @@
 import Card from './card.js'
 
-
 function newGame(container, cardsCount) {
   let cardsNumberArray = [],
     cardsArray = [],
@@ -51,4 +50,4 @@ function newGame(container, cardsCount) {
     }
   }
 }
-  newGame(document.querySelector('.game__container'), 6);
+newGame(document.querySelector('.game__container'), 8);
