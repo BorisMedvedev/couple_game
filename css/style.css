@@ -64,7 +64,7 @@ img {
   align-items: center;
   width: 150px;
   min-height: 180px;
-  background-color: aqua;
+  background-color: rgb(57, 91, 245);
   font-size: 52px;
   font-weight: bold;
   border-radius: 10px;
@@ -86,7 +86,7 @@ img {
   color: black;
 }
 
-.card.succes {
+.card.success {
   background-color: rgb(255, 255, 255);
   box-shadow: none;
   color: rgb(0, 0, 0);
