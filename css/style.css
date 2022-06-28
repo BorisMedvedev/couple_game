@@ -1,0 +1,95 @@
+@charset "UTF-8";
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+h1,
+h2,
+h3,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 30px;
+  /* для удобства */
+  font-weight: 400;
+  background-color: rgb(189, 238, 253);
+}
+
+img {
+  display: block;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.container {
+  padding: 0 15px;
+  margin: 0 auto;
+  max-width: 800px;
+  width: 100%;
+}
+
+.game__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+}
+.game__title {
+  margin: 0;
+  margin-bottom: 50px;
+  text-align: center;
+  font-size: 42px;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  min-height: 180px;
+  background-color: aqua;
+  font-size: 52px;
+  font-weight: bold;
+  border-radius: 10px;
+  color: transparent;
+  border: 1px solid transparent;
+  box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.1);
+  cursor: pointer;
+  transition: box-shadow 0.3s, border 0.3s, opacity 0.3s;
+  margin-bottom: 25px;
+}
+.card:not(:last-child) {
+  margin-right: 25px;
+}
+
+.card.open {
+  background-color: rgb(190, 182, 182);
+  border-color: rgb(37, 95, 255);
+  box-shadow: 5px 5px 10px 5px rgba(34, 60, 80, 0.3);
+  color: black;
+}
+
+.card.succes {
+  background-color: rgb(255, 255, 255);
+  box-shadow: none;
+  color: rgb(0, 0, 0);
+  opacity: 0.3;
+  pointer-events: none;
+}/*# sourceMappingURL=style.css.map */
