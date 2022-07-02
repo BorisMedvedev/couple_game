@@ -50,4 +50,4 @@ function newGame(container, cardsCount) {
     }
   }
 }
-newGame(document.querySelector('.game__container'), 8);
+newGame(document.querySelector('.game__container'), 16);

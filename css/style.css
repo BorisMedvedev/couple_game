@@ -41,7 +41,7 @@ img {
 .container {
   padding: 0 15px;
   margin: 0 auto;
-  max-width: 800px;
+  max-width: 600px;
   width: 100%;
 }
 
@@ -62,8 +62,8 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 150px;
-  min-height: 180px;
+  width: 120px;
+  min-height: 150px;
   background-color: rgb(57, 91, 245);
   font-size: 52px;
   font-weight: bold;
